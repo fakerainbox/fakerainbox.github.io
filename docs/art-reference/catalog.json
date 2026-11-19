@@ -31,7 +31,9 @@
         "冷暖互衬"
       ],
       "assessment": "最初两张之一；整体很有感觉",
-      "interpretation": "颜色间的整体冷暖关系"
+      "interpretation": "颜色间的整体冷暖关系",
+      "permission_status": "user_reported_authorized_from_creator_friend",
+      "site_publication_status": "reference_only_not_selected_for_public_site"
     },
     {
       "id": "ART-002",
@@ -45,7 +47,9 @@
         "冷暖张力"
       ],
       "assessment": "最初两张之一；整体很有张力",
-      "interpretation": "冷色环境与局部鲜明暖光"
+      "interpretation": "冷色环境与局部鲜明暖光",
+      "permission_status": "user_reported_authorized_from_creator_friend",
+      "site_publication_status": "reference_only_not_selected_for_public_site"
     },
     {
       "id": "ART-003",
@@ -62,7 +66,9 @@
       "assessment": "喜欢《加油大魔王》这部漫画，但这张图并不是特别美；后续会寻找更美的相关图片。",
       "interpretation": "冷蓝、白与红紫高对比",
       "source_work": "加油大魔王（漫画；用户明确提供）",
-      "preference_note": "喜欢原作与喜欢当前单张图片的视觉美感须分开记录"
+      "preference_note": "喜欢原作与喜欢当前单张图片的视觉美感须分开记录",
+      "permission_status": "not_documented",
+      "site_publication_status": "reference_only_not_selected_for_public_site"
     },
     {
       "id": "ART-004",
@@ -77,7 +83,9 @@
         "整体协调"
       ],
       "assessment": "明确上调一级；很喜欢蓝、白、金、黑及其整体配色与光感",
-      "interpretation": "多色结合中的暖光与层次"
+      "interpretation": "多色结合中的暖光与层次",
+      "permission_status": "not_documented",
+      "site_publication_status": "reference_only_not_selected_for_public_site"
     },
     {
       "id": "ART-005",
@@ -92,7 +100,9 @@
         "阳光"
       ],
       "assessment": "不错，但没有最初两张有感觉",
-      "interpretation": "自然绿与柔和日光的协同"
+      "interpretation": "自然绿与柔和日光的协同",
+      "permission_status": "not_documented",
+      "site_publication_status": "reference_only_not_selected_for_public_site"
     },
     {
       "id": "ART-006",
@@ -106,7 +116,9 @@
         "斑驳阳光"
       ],
       "assessment": "不错，但整体张力相对弱",
-      "interpretation": "更柔和的绿、蓝、白、粉搭配"
+      "interpretation": "更柔和的绿、蓝、白、粉搭配",
+      "permission_status": "not_documented",
+      "site_publication_status": "reference_only_not_selected_for_public_site"
     }
   ],
   "rating_history": [
@@ -126,5 +138,9 @@
         }
       ]
     }
-  ]
+  ],
+  "licensing": {
+    "updated": "2026-11-20",
+    "notes": "Permission reported by user; exact conditions not documented. Reference-only unless a separate publication decision is made."
+  }
 }

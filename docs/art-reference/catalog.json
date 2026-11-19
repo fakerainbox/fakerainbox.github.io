@@ -1,0 +1,110 @@
+{
+  "schema": "personal-site-art-reference/v1",
+  "version": "1.0",
+  "updated": "2026-11-20",
+  "privacy": "public text index only; original reference images stored privately in user Library",
+  "private_storage": "/网站美术参考库/",
+  "tiers": {
+    "S": "特别喜欢/核心参考",
+    "A": "很不错/重点收藏",
+    "B": "还不错/辅助参考",
+    "C": "待评价/候选"
+  },
+  "classification_axes": [
+    "preference_tier",
+    "color_tags",
+    "palette_relations",
+    "lighting",
+    "contrast",
+    "provisional_use"
+  ],
+  "images": [
+    {
+      "id": "ART-001",
+      "tier": "S",
+      "title": "冷蓝与褐色人物",
+      "file": "ART-001_冷蓝与褐色人物.jpg",
+      "tags": [
+        "冷蓝",
+        "褐蓝",
+        "浅粉",
+        "冷暖互衬"
+      ],
+      "assessment": "最初两张之一；整体很有感觉",
+      "interpretation": "颜色间的整体冷暖关系"
+    },
+    {
+      "id": "ART-002",
+      "tier": "S",
+      "title": "蓝紫夜色与粉红暖光",
+      "file": "ART-002_蓝紫夜色与粉红暖光.jpg",
+      "tags": [
+        "冷蓝",
+        "蓝紫",
+        "粉红暖光",
+        "冷暖张力"
+      ],
+      "assessment": "最初两张之一；整体很有张力",
+      "interpretation": "冷色环境与局部鲜明暖光"
+    },
+    {
+      "id": "ART-003",
+      "tier": "A",
+      "title": "蓝白与红色花海",
+      "file": "ART-003_蓝白与红色花海.jpg",
+      "tags": [
+        "冰蓝",
+        "白色",
+        "亮红",
+        "紫色",
+        "高对比"
+      ],
+      "assessment": "比较不错；尤其喜欢蓝与白",
+      "interpretation": "冷蓝、白与红紫高对比"
+    },
+    {
+      "id": "ART-004",
+      "tier": "A",
+      "title": "暖金色光下的蓝白黑",
+      "file": "ART-004_暖金色光下的蓝白黑.jpg",
+      "tags": [
+        "蓝灰",
+        "暖白",
+        "金",
+        "黑",
+        "整体协调"
+      ],
+      "assessment": "蓝、白、金、黑都好看，喜欢整体感觉",
+      "interpretation": "多色结合中的暖光与层次"
+    },
+    {
+      "id": "ART-005",
+      "tier": "B",
+      "title": "花园与花束·侧面",
+      "file": "ART-005_花园与花束_侧面.png",
+      "tags": [
+        "植物绿色",
+        "冷蓝",
+        "粉色",
+        "白色",
+        "阳光"
+      ],
+      "assessment": "不错，但没有最初两张有感觉",
+      "interpretation": "自然绿与柔和日光的协同"
+    },
+    {
+      "id": "ART-006",
+      "tier": "B",
+      "title": "花园与花束·正面",
+      "file": "ART-006_花园与花束_正面.png",
+      "tags": [
+        "植物绿色",
+        "蓝灰",
+        "粉白花朵",
+        "斑驳阳光"
+      ],
+      "assessment": "不错，但整体张力相对弱",
+      "interpretation": "更柔和的绿、蓝、白、粉搭配"
+    }
+  ]
+}

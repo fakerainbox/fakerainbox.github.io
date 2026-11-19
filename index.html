@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="一个属于自己的个人网站，记录文字、想法与生活。">
+  <meta name="color-scheme" content="light dark">
+  <title>我的个人网站</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8f6f2;
+      --paper: #ffffff;
+      --ink: #25231f;
+      --muted: #706c65;
+      --line: #dfdbd3;
+      --accent: #745746;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.8; }
+    a { color: inherit; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .wrap { width: min(100% - 40px, 820px); margin-inline: auto; }
+    header { border-bottom: 1px solid var(--line); }
+    .topbar { min-height: 84px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { text-decoration: none; font-weight: 700; font-size: 15px; letter-spacing: .04em; }
+    nav { display: flex; gap: 26px; }
+    nav a { text-decoration: none; font-size: 14px; color: var(--muted); }
+    nav a:hover, .brand:hover { color: var(--accent); }
+    .hero { padding: 112px 0 98px; }
+    .eyebrow { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+    h1, h2 { font-family: "Iowan Old Style", "Songti SC", "Noto Serif SC", "STSong", Georgia, serif; font-weight: 500; }
+    h1 { font-size: clamp(38px, 7vw, 66px); letter-spacing: -.035em; line-height: 1.28; margin: 22px 0; }
+    .intro { font-size: 17px; color: var(--muted); max-width: 570px; margin: 0; }
+    .rule { height: 1px; background: var(--line); }
+    section { padding: 58px 0; }
+    .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; margin-bottom: 24px; }
+    h2 { font-size: 29px; margin: 0; }
+    .section-caption { font-size: 13px; color: var(--muted); }
+    .empty { border: 1px solid var(--line); background: var(--paper); padding: 35px 32px; border-radius: 10px; }
+    .empty strong { font-size: 17px; font-weight: 600; }
+    .empty p { color: var(--muted); margin: 8px 0 0; font-size: 14px; }
+    .about { max-width: 630px; color: var(--muted); font-size: 15px; }
+    footer { border-top: 1px solid var(--line); padding: 24px 0 34px; font-size: 13px; color: var(--muted); }
+    .foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    @media (max-width: 580px) {
+      .topbar { min-height: 72px; }
+      nav { gap: 15px; }
+      .hero { padding: 80px 0 70px; }
+      section { padding: 44px 0; }
+      .section-heading { display: block; }
+      .section-caption { display: block; margin-top: 2px; }
+      .empty { padding: 28px 22px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { color-scheme: dark; --bg: #191918; --paper: #242321; --ink: #f1eee9; --muted: #aaa49b; --line: #393630; --accent: #d0a991; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a href="#home" class="brand">个人网站</a>
+      <nav aria-label="主导航">
+        <a href="#home">首页</a>
+        <a href="#writing">文字</a>
+        <a href="#about">关于</a>
+      </nav>
+    </div>
+  </header>
+  <main id="home" class="wrap">
+    <div class="hero">
+      <div class="eyebrow">A personal corner of the internet</div>
+      <h1>一个属于自己的地方。</h1>
+      <p class="intro">不必有明确的主题，也不必总是更新。喜欢的文字、偶然的想法，以及值得留下的瞬间，都可以慢慢放在这里。</p>
+    </div>
+    <div class="rule" aria-hidden="true"></div>
+    <section id="writing" aria-labelledby="writing-title">
+      <div class="section-heading">
+        <h2 id="writing-title">文字</h2>
+        <span class="section-caption">Writing & Notes</span>
+      </div>
+      <div class="empty">
+        <strong>这里暂时还是空的。</strong>
+        <p>等到有想写的东西，再把第一篇文章放进来。</p>
+      </div>
+    </section>
+    <div class="rule" aria-hidden="true"></div>
+    <section id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <h2 id="about-title">关于</h2>
+        <span class="section-caption">About This Site</span>
+      </div>
+      <p class="about">这是一个独立的个人网站。它暂时没有既定的方向，只作为一处自由记录与保存的空间。</p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap foot">
+      <span>© 个人网站</span>
+      <span>Made with plain HTML · No tracking</span>
+    </div>
+  </footer>
+</body>
+</html>

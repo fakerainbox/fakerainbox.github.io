@@ -1,6 +1,6 @@
 {
   "schema": "personal-site-art-reference/v1",
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-11-20",
   "privacy": "public text index only; original reference images stored privately in user Library",
   "private_storage": "/网站美术参考库/",
@@ -49,7 +49,7 @@
     },
     {
       "id": "ART-003",
-      "tier": "A",
+      "tier": "B",
       "title": "蓝白与红色花海",
       "file": "ART-003_蓝白与红色花海.jpg",
       "tags": [
@@ -59,12 +59,14 @@
         "紫色",
         "高对比"
       ],
-      "assessment": "比较不错；尤其喜欢蓝与白",
-      "interpretation": "冷蓝、白与红紫高对比"
+      "assessment": "喜欢《加油大魔王》这部漫画，但这张图并不是特别美；后续会寻找更美的相关图片。",
+      "interpretation": "冷蓝、白与红紫高对比",
+      "source_work": "加油大魔王（漫画；用户明确提供）",
+      "preference_note": "喜欢原作与喜欢当前单张图片的视觉美感须分开记录"
     },
     {
       "id": "ART-004",
-      "tier": "A",
+      "tier": "S",
       "title": "暖金色光下的蓝白黑",
       "file": "ART-004_暖金色光下的蓝白黑.jpg",
       "tags": [
@@ -74,7 +76,7 @@
         "黑",
         "整体协调"
       ],
-      "assessment": "蓝、白、金、黑都好看，喜欢整体感觉",
+      "assessment": "明确上调一级；很喜欢蓝、白、金、黑及其整体配色与光感",
       "interpretation": "多色结合中的暖光与层次"
     },
     {
@@ -105,6 +107,24 @@
       ],
       "assessment": "不错，但整体张力相对弱",
       "interpretation": "更柔和的绿、蓝、白、粉搭配"
+    }
+  ],
+  "rating_history": [
+    {
+      "date": "2026-11-20",
+      "changes": [
+        {
+          "id": "ART-004",
+          "from": "A",
+          "to": "S"
+        },
+        {
+          "id": "ART-003",
+          "from": "A",
+          "to": "B",
+          "reason": "喜欢漫画《加油大魔王》，但该图视觉美感不够突出"
+        }
+      ]
     }
   ]
 }
